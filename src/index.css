@@ -9,6 +9,7 @@
 }
 
 :root {
+  --bg: #fdfdf1;
   --scroll-active: #717171;
 	--scrollbg: #252121;
 }
