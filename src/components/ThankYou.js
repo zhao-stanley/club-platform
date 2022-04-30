@@ -16,8 +16,8 @@ const ThankYou = ({ wave }) => {
       <div className="w-[8.71428571429rem] h-32 mx-auto my-12">
         <img src={wave} className="w-full h-full" alt="Thanks!"></img>
       </div>
-      <a href="/#top">
-        <div className="buttonshadow flex flex-row justify-center gap-1 items-center bg-gray-300 py-4 max-w-sm 2xl:max-w-md mx-auto rounded-full text-[#35383d] hover:bg-slate-600 transition ease-in-out delay-5 hover:text-slate-200">
+      <a href="/#top" className="w-auto mx-auto">
+        <div className="buttonshadow flex flex-row justify-center gap-1 items-center bg-gray-300 p-4 max-w-sm 2xl:max-w-md mx-auto rounded-full text-[#35383d] hover:bg-slate-600 transition ease-in-out delay-5 hover:text-slate-200">
           <h1 className=" font-extrabold text-xl 2xl:text-2xl">Take me back to the top!</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"

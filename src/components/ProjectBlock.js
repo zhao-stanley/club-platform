@@ -2,7 +2,7 @@ import React from "react";
 const ProjectBlock = ({ project, media, snippet, children, link }) => {
   return (
     <div className="my-12 flex flex-col justify-center gap-y-6 max-w-[75vw] mx-auto 3xl:max-w-[1334px]">
-      <a href={link} target="_blank" rel="noreferrer">
+      <a href={link} target="_blank" rel="noreferrer" className="w-auto mx-auto">
         <div className="flex flex-row items-center gap-4 justify-center">
           <h1 className="text-[#35383d] font-extrabold text-4xl sm:text-5xl 3xl:text-6xl">
             {project}

@@ -2,7 +2,7 @@ import React from "react";
 
 const JumpDown = ({ id }) => {
   return (
-    <a href={'/#' + id}>
+    <a href={'/#' + id} className="w-auto mx-auto">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="my-8 mx-auto w-12 h-12 animate-bounce"
