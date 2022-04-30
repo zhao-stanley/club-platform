@@ -1,5 +1,6 @@
 import "./index.css";
 //Components
+import GithubCorner from "./components/GithubCorner";
 import HeroText from "./components/HeroText";
 import Running from "./components/Running";
 import Quals from "./components/Quals";
@@ -18,6 +19,7 @@ import wave from "./media/wave.gif";
 const App = () => {
   return (
     <>
+      <GithubCorner />
       <HeroText />
       <Running />
       <Quals />
