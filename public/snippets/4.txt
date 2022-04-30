@@ -1,0 +1,13 @@
+//Sticker React Component Example
+
+<div className="header">
+    <div className="sport-header">
+        <img src={game.emojiUrl} alt={game.sport} /> //pass in data from prop 'game'
+        <h2 className="sport-type">{game.sport}</h2>
+    </div>
+
+    <h1 className="sport-teams">
+        {teamA.name} @ {teamB.name} //pass in data form prop 'team'
+    </h1>
+    <h1 className="date">{date}</h1> //pass in parsed date
+</div>

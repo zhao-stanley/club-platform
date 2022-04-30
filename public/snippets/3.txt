@@ -1,0 +1,9 @@
+//Social Media React Component Example
+<a
+    className="w-6 h-6 my-0 mx-3 flex items-center justify-center" //TailwindCSS styling
+    href="https://www.instagram.com/cosephjhen/"
+    target={"_blank"}
+    rel="noreferrer"
+    >
+    <img src={instagram} alt="Instagram" className="mw-full h-full" /> //pass in imported image
+</a>

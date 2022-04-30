@@ -1,0 +1,21 @@
+//Discord Bot Dice Command Example
+
+const { MessageEmbed } = require("discord.js"); //required import
+
+module.exports = {
+  name: "dice",
+  cooldown: 2.5,
+  category: "Fun",
+  description: `Roll a dice`,
+  usage: "dice",
+
+  async execute(message, args, client, prefix, Discord) {
+    let result = Math.floor(Math.random() * (6 - 1 + 1) + 1); //generate a random number from 1-6 inclusive
+    let embed = new MessageEmbed()
+      .setTitle(`Dice`)
+      .setTimestamp()
+      .setColor("#e8e6df")
+      .setDescription(`You rolled a **${result}**!`) //pass in result in the description of the embed
+      message.reply({embeds: [embed], allowedMentions: { repliedUser: false }});
+  }
+};

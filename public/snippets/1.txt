@@ -1,0 +1,19 @@
+//DOM Manipulation Sample
+
+const buildDiv = (object) => {
+  const div = document.createElement("div"); //create a div
+  div.classList.add("div-class");
+
+  const p = document.createElement("p"); //create a p tag
+  p.classList.add("p-class"); //give the p tag a class
+  p.innerText = array.name; //set the title to the name from object
+
+  const h1 = document.createElement("h1"); //create h1 tag inside that
+  h1.classList.add("h1-class"); //give the h1 tag a class
+  h1.innerText = "abcdefghijklmnopqrstuvwxyz"; //set the h1's text content
+
+  div.appendChild(p);
+  div.appendChild(h1);
+
+  return div;
+};
