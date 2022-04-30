@@ -1,4 +1,4 @@
-//DOM Manipulation Sample
+//DOM Manipulation Example
 
 const buildDiv = (object) => {
   const div = document.createElement("div"); //create a div
