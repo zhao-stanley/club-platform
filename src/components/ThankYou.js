@@ -11,7 +11,7 @@ const ThankYou = ({ wave }) => {
         and demonstrated my skills in a unique way.
         <br />
         <br />
-        <strong>#Stanley4CodeClubVP</strong>
+        <strong>#Stanley4CodeClubPrez</strong>
       </p>
       <div className="w-[8.71428571429rem] h-32 mx-auto my-12">
         <img src={wave} className="w-full h-full" alt="Thanks!"></img>

@@ -30,7 +30,7 @@ const App = () => {
         sticker={sticker}
         platform={platform}
       />
-      <ThankYou   wave={wave}  />
+      <ThankYou wave={wave}/>
     </>
   );
 };
